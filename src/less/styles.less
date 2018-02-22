@@ -1,0 +1,32 @@
+html{
+        min-height: 100%;
+        height: 1px;
+        font-family: 'Exo2-Regular,sans-serif';
+        line-height: 1.15;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.br-header-main {
+    position: relative;
+    z-index: 102;
+    background: #fff;
+    -webkit-transform: translateZ(0);
+    margin-bottom: 65px;
+    font-size: 13px;
+    color: #333;
+}
+header:after {
+    background: #fff;
+    display: block;
+    width: 100%;
+    height: calc(100% - 50px);
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
